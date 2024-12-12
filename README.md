@@ -7,7 +7,7 @@ Unmanned Aerial Vehicle (UAV) detection for public safety protection is becoming
 ## Pre-trained Weights
 [Weights for testing](https://drive.google.com/file/d/1pwSm5Nojg9nxtegvFFAmmrgqGTemmH1L/view?usp=sharing)
 ## Test with pre-trained weights
-To test and validate the results please use the "weights in the above link" with the following code file "inference-video.py". Moreover, the videos RGB_test.mp4 and IR_test.mp4 can be used during testing. For "utils" in the "inference-video.py", please visit this link [EfficientDet](https://github.com/xuannianz/EfficientDet/tree/master/utils) 
+To test and validate the results please use the "weights in the above link" with the following code file "inference-video.py". Moreover, the videos RGB_test.mp4 and IR_test.mp4 can be used during testing. For "utils" in the "inference-video.py", please visit this link [EfficientDet](https://github.com/xuannianz/EfficientDet/tree/master/utils) download the files and put it in the folder "utils".
 
 ## How to Prepare the Custom dataset:
 a) Convert videos to frames by using the python script file with name and location:
