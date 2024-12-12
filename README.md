@@ -10,8 +10,8 @@ Unmanned Aerial Vehicle (UAV) detection for public safety protection is becoming
 To test and validate the results please use the "weights in the above link" with the following code file "inference-video.py". Moreover, the videos RGB_test.mp4 and IR_test.mp4 can be used during testing. For "utils" in the "inference-video.py", please visit this link [EfficientDet](https://github.com/xuannianz/EfficientDet/tree/master/utils) download the files and put it in the folder "utils".
 ## Our results
 Please check the video files "RGB.mp4" and "IR.mp4" for detection of UAVs using a single proposed hybrid model performance. Moreover, here are the evaluations in term of mAP and loss.
-![image info](1.png)
-![image info](1.png)
+![image info](mAP.png)
+![image info](Train_Validation_Losses.png)
 ## How to Prepare the Custom dataset:
 a) Convert videos to frames by using the python script file with name and location:
 convert_to_frames_copy.py
