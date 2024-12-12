@@ -1,4 +1,10 @@
 # UAVs-Detection-in-Day-and-Night-Dual-Visions
+## Paper: A Hybrid Deep Learning Model for UAVs Detection in Day and Night Dual Visions
+Abstract:
+Unmanned Aerial Vehicle (UAV) detection for public safety protection is becoming a critical issue in non-fly zones. There are plenty of attempts of the UAV detection using single stream (day or night vision). In this paper, we propose a new hybrid deep learning model to detect the UAV s in day and night visions with a high detection precision and accurate bounding box localization. The proposed hybrid deep learning model is developed with cosine annealing and re-thinking transformation to improve the detection precision and accelerate the training convergence. To validate the hybrid deep learning model, real-world experiments are conducted outdoor in daytime and nighttime, where a surveillance video camera on the ground is set up for capturing the UAV. In addition, the UAV-Catch open database is adopted for offline training of the proposed hybrid model, which enriches training datasets and improves the detection precision. The experimental results show that the proposed hybrid deep learning model achieves 65 % in terms of the mean average detection precision given the input videos in day and night visions.
+# Proposed WGNN model workflow 
+![image info](Workflow.png)
+
 ## How to Prepare the Custom dataset:
 
 a) Convert videos to frames by using the python script file with name and location:
@@ -30,3 +36,5 @@ Using the following Script for the training:
 python train.py --snapshot imagenet --phi 4 --gpu 0 --random-transform --compute-val-loss --freeze-backbone --batch-size 8 --steps 100 --epochs 600  csv {path to}/data/IR-RGBTrain.csv {path to}/data/Drone.csv --val-annotations-path {path to}/data/IR-RGBTest.csv
 
 Note: Where –phi 4 indicates the EfficientDet-4 and need to be change with the GPU memory and --batch-size 8 also part of the gpu memory.	 
+## The Hybrid model code will be shared after cleaning...
+In Progress
