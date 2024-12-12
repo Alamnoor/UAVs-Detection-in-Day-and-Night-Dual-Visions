@@ -4,7 +4,7 @@ Abstract:
 Unmanned Aerial Vehicle (UAV) detection for public safety protection is becoming a critical issue in non-fly zones. There are plenty of attempts of the UAV detection using single stream (day or night vision). In this paper, we propose a new hybrid deep learning model to detect the UAV s in day and night visions with a high detection precision and accurate bounding box localization. The proposed hybrid deep learning model is developed with cosine annealing and re-thinking transformation to improve the detection precision and accelerate the training convergence. To validate the hybrid deep learning model, real-world experiments are conducted outdoor in daytime and nighttime, where a surveillance video camera on the ground is set up for capturing the UAV. In addition, the UAV-Catch open database is adopted for offline training of the proposed hybrid model, which enriches training datasets and improves the detection precision. The experimental results show that the proposed hybrid deep learning model achieves 65 % in terms of the mean average detection precision given the input videos in day and night visions.
 # Proposed WGNN model workflow 
 ![image info](block_diagram.png)
-
+[Weights for testing](https://drive.google.com/file/d/1pwSm5Nojg9nxtegvFFAmmrgqGTemmH1L/view?usp=sharing)
 ## How to Prepare the Custom dataset:
 
 a) Convert videos to frames by using the python script file with name and location:
