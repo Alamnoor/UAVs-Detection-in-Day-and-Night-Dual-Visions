@@ -45,7 +45,7 @@ Note: Where –phi 4 indicates the EfficientDet-4 and need to be change with the
 ## The Hybrid model code will be shared after cleaning...
 In Progress
 
-## Citation
+## Citations
 @INPROCEEDINGS{9750351,
   author={Noor, Alam and Li, Kai and Ammar, Adel and Koubaa, Anis and Benjdira, Bilel and Tovar, Eduardo},
   booktitle={2021 IEEE Third International Conference on Cognitive Machine Intelligence (CogMI)}, 
@@ -53,6 +53,17 @@ In Progress
   year={2021},
   volume={},
   number={},
-  pages={221-231},
-  keywords={Deep learning;Night vision;Training;Annealing;Surveillance;Streaming media;Autonomous aerial vehicles;UAV Detection;IR Stream;RGB Stream;Convolutional Neural Networks;Rethinking Transformation;Cosine Annealing},
+  pages={221-231}
   doi={10.1109/CogMI52975.2021.00037}}
+@article{NOOR2024108959,
+title = {Fusion flow-enhanced graph pooling residual networks for Unmanned Aerial Vehicles surveillance in day and night dual visions},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {136},
+pages = {108959},
+year = {2024},
+issn = {0952-1976},
+doi = {https://doi.org/10.1016/j.engappai.2024.108959},
+url = {https://www.sciencedirect.com/science/article/pii/S0952197624011175},
+author = {Alam Noor and Kai Li and Eduardo Tovar and Pei Zhang and Bo Wei}
+}
+  
